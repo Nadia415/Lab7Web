@@ -1,60 +1,85 @@
-# CodeIgniter 4 Framework
+# Praktikum 1 – PHP Framework (CodeIgniter 4)
 
-## What is CodeIgniter?
+## Mata Kuliah
+Pemrograman Web 2
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## Nama
+Nadia Permata Putri
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+## NIM
+312310432
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+## Kelas
+TI.23.C2
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
 
-## Important Change with index.php
+---
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+## 🛠 Persiapan dan Instalasi
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+1. Aktifkan ekstensi PHP di `php.ini`:
+   - `php-json`, `php-mysqlnd`, `php-xml`, `php-intl`
+2. Unduh CodeIgniter 4 dari https://codeigniter.com
+3. Ekstrak ke `htdocs/lab11_ci/ci4`
+4. Ubah file `env` menjadi `.env`, lalu ubah:
+   ```env
+   CI_ENVIRONMENT = development
+   ```
+5. Jalankan server lokal dengan perintah:
+   ```bash
+   php spark serve
+   ```
+6. Akses melalui browser: `http://localhost:8080`
 
-**Please** read the user guide for a better explanation of how CI4 works!
+---
 
-## Repository Management
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+## 🌐 Hasil Uji Coba di Localhost
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+Setelah menjalankan server dengan `php spark serve`, berikut adalah hasil tampilan dari masing-masing halaman:
 
-## Contributing
+### ✅ Halaman Home
+- 📍 URL: `/`
+- Menampilkan halaman default bawaan dari CodeIgniter (`Home::index()`).
 
-We welcome contributions from the community.
+### ✅ Halaman About
+- 📍 URL: `/about`
+- Menampilkan informasi "Tentang Kami".
+- Menggunakan layout lengkap dengan `header`, `navigasi`, `konten`, `sidebar`, dan `footer`.
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+### ✅ Halaman Contact
+- 📍 URL: `/contact`
+- Menampilkan informasi kontak perusahaan atau pengelola situs.
 
-## Server Requirements
+### ✅ Halaman FAQs
+- 📍 URL: `/faqs`
+- Menampilkan daftar pertanyaan umum (Frequently Asked Questions).
 
-PHP version 8.1 or higher is required, with the following extensions installed:
+### ✅ Halaman Artikel
+- 📍 URL: `/artikel`
+- Menampilkan konten daftar artikel (dummy content).
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+### ✅ Halaman Term of Services
+- 📍 URL: `/page/tos`
+- Menampilkan syarat dan ketentuan layanan.
 
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
+---
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+### 🧱 Struktur Tampilan Layout
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+
+
+```
+
+Layout ini dibangun menggunakan:
+- Template: `header.php` dan `footer.php`
+- CSS eksternal: `public/style.css`
+
+---
+
+### 🧠 Kesimpulan
+
+- Semua halaman berhasil ditampilkan sesuai dengan routing yang dibuat.
+- Struktur MVC berhasil diterapkan dengan benar.
+- Layout dan tampilan halaman rapi serta konsisten.
+- Aplikasi berjalan baik di `localhost` menggunakan CodeIgniter 4.
