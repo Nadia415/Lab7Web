@@ -1,5 +1,4 @@
 # Praktikum 1 – PHP Framework (CodeIgniter 4)
-
 ## Mata Kuliah
 Pemrograman Web 2
 
@@ -12,8 +11,6 @@ Nadia Permata Putri
 ## Kelas
 TI.23.C2
 
-
----
 
 ## 🛠 Persiapan dan Instalasi
 
@@ -30,8 +27,6 @@ TI.23.C2
    php spark serve
    ```
 6. Akses melalui browser: `http://localhost:8080`
-
----
 
 
 ## 🌐 Hasil Uji Coba di Localhost
@@ -66,16 +61,6 @@ Setelah menjalankan server dengan `php spark serve`, berikut adalah hasil tampil
 ---
 
 ### 🧱 Struktur Tampilan Layout
-
-
-
-```
-
-Layout ini dibangun menggunakan:
-- Template: `header.php` dan `footer.php`
-- CSS eksternal: `public/style.css`
-
----
 
 ### 🧠 Kesimpulan
 
