@@ -77,52 +77,18 @@ nav a:hover {
 
 #main {
     float: left;
-    width: 640px;
+    width: 90%;
     padding: 20px;
 }
 
 /* sidebar area */
 #sidebar {
     float: left;
-    width: 260px;
+    width: 60px;
     padding: 20px;
 }
 
-/* widget */
-.widget-box {
-    border: 1px solid #eee;
-    margin-bottom: 20px;
-}
 
-.widget-box .title {
-    padding: 10px 16px;
-    background-color: #428bca;
-    color: #fff;
-}
-
-.widget-box ul {
-    list-style-type: none;
-}
-
-.widget-box li {
-    border-bottom: 1px solid #eee;
-}
-
-.widget-box li a {
-    padding: 10px 16px;
-    color: #333;
-    display: block;
-    text-decoration: none;
-}
-
-.widget-box li:hover a {
-    background-color: #eee;
-}
-
-.widget-box p {
-    padding: 15px;
-    line-height: 25px;
-}
 
 /* footer */
 footer {
