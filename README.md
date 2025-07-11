@@ -2,7 +2,7 @@
 
 **Nama**: Nadia Permata Putri\
 **NIM**: 312310432\
-**Kelas**: TI-[isi jika ada]
+**Kelas**: TI.23.C.2\
 
 ---
 
