@@ -11,7 +11,7 @@
 
 body {
     line-height: 1;
-    font-size: 90%;
+    font-size: 100%;
     font-family: 'Open Sans', sans-serif;
     color: #5a5a5a;
 }
@@ -21,8 +21,6 @@ body {
     margin: 0 auto;
     box-shadow: 0 0 1em #cccccc;
 }
-
-
 
 /* header */
 header {
@@ -71,6 +69,8 @@ nav a:hover {
     font-size: 18px;
     line-height: 25px;
 }
+
+/* main content */
 #wrapper {
     margin: 0;
 }
@@ -83,8 +83,8 @@ nav a:hover {
 
 /* sidebar area */
 #sidebar {
-    float: left;
-    width: 60px;
+    float: right;
+    width: 260px;
     padding: 20px;
 }
 
@@ -201,12 +201,7 @@ footer {
 .entry .right-img {
     float: right;
 }
-/* public/style.css */
-body {
-    background: #f0f2f5;
-    font-family: Arial, sans-serif;
-}
-
+/* Login Form */
 .login-container {
     width: 350px;
     margin: 100px auto;
@@ -251,6 +246,7 @@ body {
     background: #0056b3;
 }
 
+/* Alert */
 .alert {
     background: #f8d7da;
     color: #721c24;
@@ -258,20 +254,4 @@ body {
     margin-bottom: 15px;
     border-left: 4px solid #dc3545;
     border-radius: 4px;
-}
-* Artikel Terkini box */
-.widget-box {
-  background: #f1f1f1;
-  border: 1px solid #ddd;
-  margin-bottom: 15px;
-  padding: 10px;
-  border-radius: 5px;
-}
-.widget-box h3.title {
-  margin-top: 0;
-  font-size: 16px;
-  background: #007BFF;
-  color: white;
-  padding: 5px 10px;
-  border-radius: 3px;
 }

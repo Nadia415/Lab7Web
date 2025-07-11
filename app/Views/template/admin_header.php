@@ -15,7 +15,7 @@
 
     <nav>
         <a href="<?= base_url('/admin/artikel'); ?>" class="<?= uri_string() == 'admin/artikel' ? 'active' : ''; ?>">Dashboard</a>
-        <a href="<?= base_url('/admin/artikel'); ?>" class="<?= uri_string() == 'admin/artikel' ? 'active' : ''; ?>">Artikel</a>
+        <a href="<?= base_url('/artikel'); ?>" class="<?= uri_string() == 'admin/artikel' ? 'active' : ''; ?>">Artikel</a>
         
     </nav>
 
