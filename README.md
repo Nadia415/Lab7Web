@@ -340,6 +340,8 @@ Pada praktikum ini, kita berhasil menerapkan fitur pagination dan pencarian deng
 ### 1. Form Upload Gambar  
 ![Upload Form](https://github.com/Nadia415/Lab7Web/blob/main/Praktimum%20web/add1.png?raw=true)  
 **Penjelasan**: Tampilan form tambah artikel yang sudah dilengkapi input untuk upload gambar.
+### 2. Hasil gambar yang telah di upload
+![gambar](https://github.com/Nadia415/Lab7Web/blob/main/Praktimum%20web/tampilangmbr.png?raw=true)
 
 ---
 
@@ -404,13 +406,13 @@ Lakukan uji coba untuk:
 ---
 
 ### 3. Form Tambah Artikel dengan Dropdown Kategori  
-![Form Tambah Artikel](screenshots/form-tambah-kategori.png)  
+![Form Tambah Artikel](https://github.com/Nadia415/Lab7Web/blob/main/Praktimum%20web/addkat.png?raw=true)  
 **Penjelasan**: Saat menambah artikel, admin dapat memilih kategori dari dropdown yang berisi semua kategori dari database.
 
 ---
 
 ### 4. Form Edit Artikel dengan Dropdown Kategori  
-![Form Edit Artikel](screenshots/form-edit-kategori.png)  
+![Form Edit Artikel](https://github.com/Nadia415/Lab7Web/blob/main/Praktimum%20web/editkat.png?raw=true)  
 **Penjelasan**: Form edit artikel memuat data artikel yang sedang diedit, termasuk kategori yang dapat diubah melalui dropdown.
 
 ---
