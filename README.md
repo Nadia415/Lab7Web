@@ -14,7 +14,7 @@
 - Menambahkan route di `app/Config/Routes.php`
 
 ### 📸 Contoh Tampilan
-![halaman-about](Praktimum web\About.png)
+![halaman-about](https://github.com/Nadia415/Lab7Web/blob/main/Praktimum%20web/id_kategory.png?raw=true)
 
 ---
 
@@ -28,7 +28,7 @@
 - Menambahkan field `created_at` untuk tanggal artikel
 
 ### 📸 Contoh Halaman Admin
-![admin-index](Praktimum web\adminartikel.png)
+![admin-index](Praktimum web/Detail.png)
 
 ---
 
